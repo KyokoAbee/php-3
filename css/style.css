@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.coach-card {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.coach-card:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.coach-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.coach-info {
+    flex-grow: 1;
+}
+
+.coach-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.tags {
+    margin: 5px 0;
+}
+
+.tags span {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+.comments {
+    margin-top: 10px;
+    color: #666;
+}
+
+.short-comment {
+    display: block;
+}
+
+.full-comment {
+    display: none;
+}
+
+.session-banner {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 1000; /* 最前面に表示 */
+    writing-mode: vertical-rl; /* 文字を縦書きにする */
+    white-space: nowrap; /* テキストが折り返さないように */
+    display: flex;
+    align-items: center; /* 縦に中央寄せ */
+    justify-content: center; /* 横に中央寄せ */
+}
