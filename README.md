@@ -3,18 +3,19 @@
 
 ## ②課題内容（どんな作品か）
 - ユーザーの登録、更新、削除画面。なつきさんのログイン画面を参考にさせてもらいました。感謝!!　　
- --前回課題--
-・coaches_input   コーチ情報入力
-・coaches_create
-・coaches_read　　コーチ一覧　
---ここまで--
+## --前回課題--
+- `coaches_input`  コーチ情報入力
+- `coaches_create` コーチ作成
+- `coaches_read`  コーチ一覧  
 
---今回作成--
-・coaches_userinfo ユーザー登録画面
-・coaches_usercreate 登録処理
-・coaches_userread 登録情報表示
-・coaches_useredit 登録情報編集
-・coaches_userdelete 登録情報削除
+## --ここまで--
+
+## --今回作成--
+- `coaches_userinfo` ユーザー登録画面
+- `coaches_usercreate` ユーザー登録処理
+- `coaches_userread` ユーザー登録情報表示
+- `coaches_useredit` ユーザー登録情報編集
+- `coaches_userdelete` ユーザー登録情報削除
 
 ## ③工夫した点・こだわった点
 - 前回のレビュー会で知った、DBログイン情報を.gitignore に入れて無視することを実装しました
